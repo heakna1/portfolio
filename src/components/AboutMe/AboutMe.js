@@ -14,9 +14,9 @@ export default function AboutMe() {
                 <Col md="4">
                     <img src={Picture} className="picture" />
                 </Col>
-                <Col md="" className="mt-5 mx-3">
+                <Col className="mt-5 mx-3">
                     <Row className="name">
-                        <h1>Hey there, I'm Heather</h1>
+                        <span>Hey there, I'm Heather</span>
                     </Row>
                     <Row className="aboutMe">
                         <p>This is where my super interesting mission statement will be!</p>

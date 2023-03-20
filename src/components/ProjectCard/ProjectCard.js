@@ -14,7 +14,7 @@ export default function ProjectCard({ img, title, desc, deployLink, gitLink, key
             </Col>
             <Col>
                 <Row>
-                    <h3 className="title px-0">{title}</h3>
+                    <h2 className="title px-0">{title}</h2>
                 </Row>
                 <Row className="desc">{desc}</Row>
                 <Row className="link">
@@ -32,7 +32,7 @@ export default function ProjectCard({ img, title, desc, deployLink, gitLink, key
         <Row className="mb-5">
             <Col>
                 <Row>
-                    <h3 className="title-right">{title}</h3>
+                    <h2 className="title-right px-0">{title}</h2>
                 </Row>
                 <Row className="desc-right">{desc}</Row>
                 <Row className="link-right">

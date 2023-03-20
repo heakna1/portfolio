@@ -1,24 +1,26 @@
 .picture {
     object-fit: cover;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
-.name {
+span {
+    font-size: 50px;
     text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .aboutMe {
     text-align: left;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .about-container {
     height: 100vh;
 }
 
-/* .about-row {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-} */
+a {
+    font-size: 30px;
+}
