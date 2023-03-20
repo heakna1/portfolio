@@ -20,10 +20,10 @@ export default function ProjectCard({ img, title, desc, deployLink, gitLink, key
                 <Row className="link">
                     <Col></Col>
                     <Col md="1">
-                        <a href={deployLink}><FaGlobe/></a>
+                        <a href={deployLink}><FaGlobe className="text-black"/></a>
                     </Col>
                     <Col md="1">
-                        <a href={gitLink}><FaGithub/></a>
+                        <a href={gitLink}><FaGithub className="text-black"/></a>
                     </Col>
                 </Row>
             </Col>
@@ -38,10 +38,10 @@ export default function ProjectCard({ img, title, desc, deployLink, gitLink, key
                 <Row className="link-right">
                     <Col></Col>
                     <Col md="1">
-                        <a href={deployLink}><FaGlobe/></a>
+                        <a href={deployLink}><FaGlobe className="text-black"/></a>
                     </Col>
                     <Col md="1">
-                        <a href={gitLink}><FaGithub/></a>
+                        <a href={gitLink}><FaGithub className="text-black"/></a>
                     </Col>
                 </Row>
             </Col>

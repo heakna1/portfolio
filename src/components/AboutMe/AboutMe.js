@@ -1,7 +1,7 @@
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import { FaLinkedin, FaGithub } from "react-icons/fa"
-import Picture from "../../images/MeAndHux.jpg"
+import Picture from "../../images/MeNHux.png"
 import "./AboutMe.css"
 import Container from "react-bootstrap/esm/Container"
 
@@ -24,10 +24,10 @@ export default function AboutMe() {
                     <Row className="links">
                         <Col></Col>
                         <Col md="1">
-                            <a href="https://www.linkedin.com/in/heather-knapp-dev/"><FaLinkedin /></a>
+                            <a href="https://www.linkedin.com/in/heather-knapp-dev/"><FaLinkedin className="linkedIn text-black"/></a>
                         </Col>
                         <Col md="1">
-                            <a href="https://github.com/heakna1"><FaGithub /></a>
+                            <a href="https://github.com/heakna1"><FaGithub className="git text-black" /></a>
                         </Col>
                     </Row>
                 </Col>
