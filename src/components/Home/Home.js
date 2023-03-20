@@ -4,7 +4,7 @@ import Projects from "../Projects/Projects"
 
 export default function Home() {
     return (
-        <Container fluid='lg'>
+        <Container>
             <AboutMe/>
             <Projects/>
         </Container>

@@ -1,0 +1,24 @@
+.picture {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.name {
+    text-align: left;
+}
+
+.aboutMe {
+    text-align: left;
+}
+
+.about-container {
+    height: 100vh;
+}
+
+/* .about-row {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+} */
