@@ -2,10 +2,12 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import { FaGithub, FaGlobe } from "react-icons/fa"
 import "./ProjectCard.css"
+import Container from "react-bootstrap/esm/Container"
 
 export default function ProjectCard({ img, title, desc, deployLink, gitLink, key2 }) {
     return (
         <>
+        <Container className="project-container d-flex align-items-center">
             {
                 key2%2===0 ?
         <Row className="mb-5">
@@ -50,6 +52,7 @@ export default function ProjectCard({ img, title, desc, deployLink, gitLink, key
             </Col>
         </Row>
             }
+        </Container>
         </>
     )
 }

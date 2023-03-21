@@ -10,7 +10,7 @@
     text-align: left;
     font-family: 'Josefin Sans', sans-serif;
     /* color: #9a826d; */
-    color: #D96941
+    color: #cb6669
 }
 
 .desc {
@@ -23,7 +23,7 @@
     font-size: 40px;
     text-align: left;
     font-family: 'Josefin Sans', sans-serif;
-    color: #D96941;
+    color: #cb6669;
 }
 
 .desc-right {
@@ -34,4 +34,8 @@
 
 a {
     font-size: 30px;
+}
+
+.project-container {
+    height: 90vh;
 }

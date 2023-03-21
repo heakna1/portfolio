@@ -1,0 +1,17 @@
+.contact-container {
+    /* background-color: white; */
+    border: solid 3px white;
+    border-radius: 5px;
+    height: 40vh
+}
+
+.contact {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #688c7d;
+}
+
+.email {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

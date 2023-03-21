@@ -2,11 +2,11 @@
     object-fit: cover;
     width: 300px;
     height: 300px;
-    border: solid 5px #f08b66;
+    border: solid 5px #cb6669;
     border-radius: 50%;
 }
 
-span {
+.greeting {
     font-size: 50px;
     text-align: left;
     font-family: 'Josefin Sans', sans-serif;
