@@ -6,7 +6,7 @@ export const ProjectData =
     {
         "img": Spaceman,
         "title": "Legend of Helga Spaceman",
-        "desc": "Legend of Zelda themed game of word guessing and process of elimination of letters. This project was made with HTML, CSS, and JavaScript.",
+        "desc": "A Legend of Zelda parody game of word guessing and process of elimination of letters. You play as the brave hero, Lonk, defending his kingdom against the evil Gamon. Guess the letter to defeat your enemy; guess wrong letters and you lose health. This project was made with HTML, CSS, and JavaScript.",
         "deployLink": "https://heakna1.github.io/Spaceman-Game/",
         "gitLink": "https://github.com/heakna1/Spaceman-Game"
     },

@@ -8,11 +8,11 @@ import ResumePic from "../../images/Resume.png"
 export default function Resume() {
     return (
         <Element name="resume">
-            <Container className="resume-container">
+            <Container className="resume-container w-75">
                 <Row>
                 <Row>
                     <Col>
-                    <span className="resume-title">Resume</span>
+                    <p className="resume-title">Resume</p>
                     </Col>
                 </Row>
                 <Row>
