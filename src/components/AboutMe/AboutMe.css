@@ -1,38 +1,14 @@
-.picture {
-    object-fit: cover;
-    width: 300px;
-    height: 300px;
-    border: solid 5px #cb6669;
-    border-radius: 50%;
+.aboutme-container {
+    height: 100vh
 }
 
-.greeting {
-    font-size: 50px;
-    text-align: left;
+.aboutme {
+    font-size: 60px;
     font-family: 'Josefin Sans', sans-serif;
-    /* color: #295f27; */
-    /* color: #29524a */
-    /* color: #78a190; */
     color: #688c7d;
 }
 
-.aboutMe {
-    text-align: left;
-    font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* color: #7b635a; */
+.aboutme-desc {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.about-container {
-    height: 100vh;
-}
-
-a {
-    font-size: 30px;
-}
-
-
-
-/* .links {
-    color: #e6beae;
-} */

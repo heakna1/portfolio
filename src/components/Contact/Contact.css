@@ -1,8 +1,11 @@
 .contact-container {
-    /* background-color: white; */
-    border: solid 3px white;
+    height: 30vh
+}
+
+.contact-row {
+    border: solid 5px white;
     border-radius: 5px;
-    height: 40vh
+
 }
 
 .contact {

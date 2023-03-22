@@ -8,8 +8,8 @@ import "./Contact.css"
 export default function Contact() {
     return (
         <Element name="contact">
-            <Container className="contact-container mt-5 w-50">
-                <Row>
+            <Container className="contact-container w-50 mt-5">
+                <Row className="contact-row">
                     <Col>
                         <Row className="contact">
                             <span>Contact Me</span>

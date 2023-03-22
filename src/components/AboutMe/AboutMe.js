@@ -1,38 +1,15 @@
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import { FaLinkedin, FaGithub } from "react-icons/fa"
-import Picture from "../../images/MeNHux.png"
-import "./AboutMe.css"
 import Container from "react-bootstrap/esm/Container"
+import Row from "react-bootstrap/Row"
 import { Element } from "react-scroll"
-
+import "./AboutMe.css"
 
 export default function AboutMe() {
-
     return (
         <Element name="aboutme">
-            <Container className="about-container w-75 d-flex align-items-center">
-                <Row className="about-row align-items-center">
-                    <Col md="4">
-                        <img src={Picture} className="picture" />
-                    </Col>
-                    <Col className="mt-5 mx-3">
-                        <Row className="name">
-                            <span className="greeting">Hey there, I'm Heather</span>
-                        </Row>
-                        <Row className="aboutMe">
-                            <p>This is where my super interesting mission statement will be!</p>
-                        </Row>
-                        <Row className="links">
-                            <Col></Col>
-                            <Col md="1">
-                                <a href="https://www.linkedin.com/in/heather-knapp-dev/"><FaLinkedin className="linkedIn text-black" /></a>
-                            </Col>
-                            <Col md="1">
-                                <a href="https://github.com/heakna1"><FaGithub className="git text-black" /></a>
-                            </Col>
-                        </Row>
-                    </Col>
+            <Container className="aboutme-container w-75 d-flex align-items-center">
+                <Row>
+                    <p className="aboutme">About Me</p>
+                    <p className="aboutme-desc">I am a software engineer with a love for books, a passion for writing, and an obsession with video games. My background is in literacy and writing, and I have written fiction stories since my teens. However, the skills of story-telling and world-building are not only important for writing, but also software development. With coding and designing, you are telling the user a story that must keep their attention until the end, and that is why I am interested in front-end development and UI design. Eventually, I would love to work in the video game industy as well, helping create games that arouse emotion and excitement in users the way they have personally done for me.</p>
                 </Row>
             </Container>
         </Element>
