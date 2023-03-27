@@ -12,7 +12,7 @@ export default function ProjectCard({ img, title, desc, deployLink, gitLink, key
                     key2 % 2 === 0 ?
                         <Row className="mb-5">
                             <Col md="5">
-                                <img src={img.toString()} className="img" />
+                                <img src={img} className="img" />
                             </Col>
                             <Col>
                                 <Row>
@@ -48,7 +48,7 @@ export default function ProjectCard({ img, title, desc, deployLink, gitLink, key
                                 </Row>
                             </Col>
                             <Col md="3">
-                                <img src={img.toString()} className="img" />
+                                <img src={img} className="img" />
                             </Col>
                         </Row>
                 }

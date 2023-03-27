@@ -1,5 +1,6 @@
 import Spaceman from "../../images/Link-Spaceman.png"
 import Pawprint from "../../images/Pawprint-pic.png"
+import Ribbit from "../../images/Ribbit.jpg"
 
 export const ProjectData =
 [
@@ -12,7 +13,7 @@ export const ProjectData =
     },
 
     // {
-    //     "image": "",
+    //     "img": "",
     //     "title": "ShelfBuddi",
     //     "desc": "An app to help people organize their large book collections by putting them all in one place. This was a solo project made with HTML, Bootstrap, CSS, JavaScript, and various Middleware.",
     //     "deployLink": "",
@@ -27,11 +28,11 @@ export const ProjectData =
         "gitLink": "https://github.com/heakna1/bark-board/tree/main"
     },
 
-    // {
-    //     "image": "",
-    //     "title": "Ribbit",
-    //     "desc": "A Reddit-clone where hobbyists can share and learn from other users. This was a group project made with React, HTML, Bootstrap, CSS, JavaScript, and various Middleware.",
-    //     "deployLink": "",
-    //     "gitLink": "https://github.com/heakna1/ribbit-project-four-/tree/main"
-    // }
+    {
+        "img": Ribbit,
+        "title": "Ribbit",
+        "desc": "A Reddit-clone where hobbyists can share and learn from other users. This was a group project made with MERN-stack, Bootstrap, React-Bootstrap, CSS, and JavaScript.",
+        "deployLink": "https://npm-install-andand-npm-run-build-mnbj.onrender.com/",
+        "gitLink": "https://github.com/heakna1/ribbit-project-four-/tree/main"
+    }
 ]
