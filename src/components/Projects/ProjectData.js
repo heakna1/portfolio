@@ -23,7 +23,7 @@ export const ProjectData =
     {
         "img": Pawprint,
         "title": "BarkBoard",
-        "desc": "A pet forum app where pet owners can come together to ask questions, advice, and share the love for their pets. This project was made with MERN-stack, HTML, CSS, Bootstrap, and JavaScript.",
+        "desc": "A pet forum app where pet owners can come together to ask questions, advice, and share the love for their pets. This group project was made with MERN-stack, HTML, CSS, Bootstrap, and JavaScript.",
         "deployLink": "https://bark-board-client.onrender.com/",
         "gitLink": "https://github.com/heakna1/bark-board/tree/main"
     },
@@ -31,7 +31,7 @@ export const ProjectData =
     {
         "img": Ribbit,
         "title": "Ribbit",
-        "desc": "A Reddit-clone where hobbyists can share and learn from other users. This was a group project made with MERN-stack, Bootstrap, React-Bootstrap, CSS, and JavaScript.",
+        "desc": "A Reddit-clone where hobbyists can share and learn from other users. This group project was made with MERN-stack, Bootstrap, React-Bootstrap, CSS, and JavaScript.",
         "deployLink": "https://npm-install-andand-npm-run-build-mnbj.onrender.com/",
         "gitLink": "https://github.com/heakna1/ribbit-project-four-/tree/main"
     }
