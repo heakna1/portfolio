@@ -18,7 +18,7 @@ export default function Greeting() {
                         <span className="greeting">Hello, I'm Heather!</span>
                     </Row>
                     <Row className="roles">
-                        <p>Front-end Developer | UI Designer | Fiction Writer</p>
+                        <p>Frontend Developer| UI/UX Designer| Fiction Writer</p>
                     </Row>
                 </Col>
             </Row>

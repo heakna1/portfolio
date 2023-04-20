@@ -1,9 +1,17 @@
 import Spaceman from "../../images/Link-Spaceman.png"
 import Pawprint from "../../images/Pawprint-pic.png"
 import Ribbit from "../../images/Ribbit.jpg"
+import CleanUp from "../../images/CleanUp.png"
 
 export const ProjectData =
 [
+    {
+        "img": CleanUp,
+        "title": "CleanUp App",
+        "desc": "A UX design case study for a volunteer app called CleanUp. This project goes from start to finish of the UX design process. From interviewing users to napkin sketches to the final app design.",
+        "deployLink": "https://www.figma.com/proto/I5vdVJKi5WLUSFYHXij8tb/Clean-Up-App-Case-Study?node-id=2-4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A4",
+        "gitLink": ""
+    },
     {
         "img": Spaceman,
         "title": "Legend of Helga Spaceman",
